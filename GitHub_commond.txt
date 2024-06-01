@@ -1,0 +1,36 @@
+Certainly! Here's a list of common GitHub commands and their descriptions:
+
+1. **git init**: Initializes a new local repository.
+2. **git clone \<repository_url>**: Clones a repository from a remote source (e.g., GitHub) to your local machine.
+3. **git add \<file(s)>**: Adds changes in the working directory to the staging area.
+4. **git commit -m "\<commit_message>"**: Commits changes from the staging area to the local repository with a message.
+5. **git push \<remote> \<branch>**: Pushes local changes to the remote repository (e.g., GitHub).
+6. **git pull \<remote> \<branch>**: Fetches changes from the remote repository and merges them into the local branch.
+7. **git fetch \<remote>**: Fetches changes from the remote repository without merging them into the local branch.
+8. **git merge \<branch>**: Merges changes from a specified branch into the current branch.
+9. **git checkout \<branch>**: Switches to the specified branch.
+10. **git branch**: Lists all branches in the local repository.
+11. **git branch \<branch_name>**: Creates a new branch with the specified name.
+12. **git branch -d \<branch_name>**: Deletes the specified branch.
+13. **git status**: Shows the status of changes in the working directory.
+14. **git log**: Displays commit history.
+15. **git diff**: Shows the differences between changes in the working directory and the staging area.
+16. **git remote -v**: Lists all remote repositories and their URLs.
+17. **git remote add \<name> \<url>**: Adds a new remote repository with the specified name and URL.
+18. **git remote remove \<name>**: Removes the remote repository with the specified name.
+19. **git remote set-url \<name> \<new_url>**: Changes the URL of the remote repository with the specified name.
+20. **git config --global user.name "Your Name"**: Sets the username for Git commits.
+21. **git config --global user.email "your_email@example.com"**: Sets the email for Git commits.
+22. **git tag \<tag_name>**: Creates a lightweight tag for the current commit.
+23. **git tag -a \<tag_name> -m "\<tag_message>"**: Creates an annotated tag for the current commit.
+24. **git push \<remote> --tags**: Pushes all tags to the remote repository.
+25. **git pull \<remote> --tags**: Fetches all tags from the remote repository.
+26. **git push \<remote> :\<branch>**: Deletes a branch on the remote repository.
+27. **git stash**: Stashes changes in the working directory for later use.
+28. **git stash pop**: Applies the most recently stashed changes and removes them from the stash.
+29. **git stash list**: Lists all stashed changes.
+30. **git cherry-pick \<commit_hash>**: Applies the changes introduced by the specified commit to the current branch.
+31. **git reset \<commit>**: Resets the current HEAD to the specified commit and optionally resets the index and working directory.
+32. **git rebase \<branch>**: Rebases the current branch onto the specified branch.
+
+These commands cover the basics of using Git and GitHub for version control and collaboration. Feel free to explore additional options and features based on your specific needs!

@@ -1,0 +1,2 @@
+Hello, file handling in C++!
+This is a new line.
